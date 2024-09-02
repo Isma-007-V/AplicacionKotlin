@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="185dp"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Imagen de la categoría -->
+        <ImageView
+            android:id="@+id/imagenCategoriaQSCL"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            />
+
+        <!-- Nombre de la categoría -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <!-- Otros elementos si es necesario -->
+
+            <!-- Eliminar categoría -->
+            <!--.<ImageButton
+                android:id="@+id/Eliminar_catQSCL"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_eliminar_cat" />-->
+
+            <TextView
+                android:id="@+id/Item_nombre_cat_aQS"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Item_nombre_catQS_C" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

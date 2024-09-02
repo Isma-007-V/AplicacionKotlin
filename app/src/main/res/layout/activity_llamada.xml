@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Id_llamadas_Texto1"
+        android:text="@string/Txt_Llamadas1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageButton
+        android:id="@+id/Ib_cerrar"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_cerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/Txt_llamadas_Or"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ib_cerrar"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_Nombre_organizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Id_llamadas_Texto1">
+        <TextView
+            android:id="@+id/Et_Nombre_organizacion"
+            android:hint="@string/Et_agregar_Nombre"
+            android:inputType="textMultiLine|textCapSentences"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/Txt_nombrenumero"
+        android:text="@string/Txt_llamadas_Or_N"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TIL_Nombre_organizacion"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_Numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Txt_nombrenumero">
+
+        <TextView
+            android:id="@+id/Et_Numero"
+            android:hint="@string/Et_agregar_Numero"
+            android:textSize="25sp"
+
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Btn_LLamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TIL_Numero"
+        android:layout_marginTop="13dp"
+        android:text="@string/Btn_Llamar"
+        android:textAllCaps="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Btn_CancelarLlamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Btn_LLamar"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/Btn_LLamar"
+        android:text="@string/Btn_Cancelar"
+        android:textAllCaps="true" />
+
+
+
+</RelativeLayout>

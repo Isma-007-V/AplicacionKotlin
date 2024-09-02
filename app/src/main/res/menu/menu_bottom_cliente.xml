@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Menu_dashboard_cl"
+        android:title="@string/Menu_dashboard_cl"
+        android:icon="@drawable/ic_dashboard"/>
+
+    <item
+        android:id="@+id/Menu_fsvoritos_cl"
+        android:title="@string/Menu_fsvoritos_cl"
+        android:icon="@drawable/ic_favoritos"/>
+    <item
+        android:id="@+id/Menu_Emergencias_cl"
+        android:title="@string/Menu_Emergencias_cl"
+        android:icon="@drawable/ic_emergencia"/>
+
+    <item
+        android:id="@+id/Menu_somos_cl"
+        android:title="@string/Menu_somos_cl"
+        android:icon="@drawable/ic_quienes_somos"/>
+
+    <item
+        android:id="@+id/Menu_cuenta_cl"
+        android:title="@string/Menu_cuenta_cl"
+        android:icon="@drawable/ic_cuenta"/>
+
+</menu>

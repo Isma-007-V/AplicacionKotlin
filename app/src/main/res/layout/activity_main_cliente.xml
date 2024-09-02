@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Recordatorio: una vez hecho lo del menu se procede a editar aqui, con los iconos y eso -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityCliente">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRLCliente"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_toolbar_height">
+        <ImageButton
+            android:id="@+id/Ib_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_menu_u" />
+
+        <TextView
+            android:id="@+id/Titulo_RL_Cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/Titulo_RL_Cliente" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#1ABC9C" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fragments_Cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View2"
+        android:layout_below="@id/toolbarRLCliente"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="2dp" />
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1ABC9C"
+        android:layout_above="@+id/Bottom_nav_cliente"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Bottom_nav_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_cliente"
+        app:labelVisibilityMode="labeled"
+        />
+
+</RelativeLayout>

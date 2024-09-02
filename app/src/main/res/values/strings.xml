@@ -1,0 +1,364 @@
+<resources>
+
+    <string name="default_web_client_id">141928222797-visc8onc2pvm14bm0vqlli4t2nu22fs2.apps.googleusercontent.com</string>
+    <string name="app_name">PreAlba</string>
+    <!--Admin-->
+    <string name="Menu_panel">Inicio</string>
+    <string name="Menu_cuenta">Cuenta</string>
+    <string name="Menu_somos">PreAlba</string>
+    <string name="Menu_emergencias_A">Emergencias</string>
+    <string name="Menu_Panel_informes">Informes</string>
+
+
+    <string name="Titulo_RL_Admin">Contenido</string>
+
+    <string name="Txt_rol">Por favor elija un rol</string>
+    <string name="Btn_rol_administrador">Administrador</string>
+    <string name="Btn_rol_cliente">Estandar</string>
+
+    <string name="TxtRegistroAdmin">Registro de administrador</string>
+
+    <string name="Et_nombres_admin">Nombres</string>
+    <string name="Et_email_admin">Email</string>
+    <string name="Et_password_admin">Contraseña</string>
+    <string name="Et_R_password_admin">Repita la Contraseña</string>
+    <string name="Btn_registrar_admin">Registrar</string>
+    <string name="Txt_tengo_cuenta">Tengo una cuenta</string>
+
+    <string name="CerrarSesionAdmin">Cerrar</string>
+    <string name="CrearCuentaAdmin">Crear Cuenta Admin</string>
+
+    <string name="TxtLoginAdmin">Login Administradores</string>
+
+    <string name="Btn_login_admin">Iniciar Sesion</string>
+
+    <string name="Btn_agregar_categoria">Agregar categoria</string>
+
+    <string name="Btn_agregar_categoria_QS">Agregar Organismo Auxiliar</string>
+    <string name="Btn_descargar_admins">Administradores</string>
+    <string name="Btn_descargar_estandar">Usuarios</string>
+    <string name="Btn_descargar_llamadas">Historial</string>
+    <string name="Btn_descargar_categorias"> Divulgacion Cat</string>
+    <string name="Btn_descargar_organismo">Organismos</string>
+    <string name="Btn_descargar_libros">Biblioteca Juridica</string>
+    <string name="Btn_descargar_biblioteca_O">Conjunto de acciones</string>
+
+
+    <string name="Btn_GPS_LL">Revisa tu ubicación </string>
+
+    <string name="Btn_agregar_categoria_QSCL">Agregar Organismo Auxiliar</string>
+
+
+    <string name="Txt_agregar_categoria">Agregar categoria</string>
+    <string name="Txt_actualizar_categoriaLL">Actualizar categoria llamadas</string>
+
+    <string name="Txt_agregar_categoria_QS">Agregar Organismo Auxiliar</string>
+
+    <string name="Et_categoria">Ingrese categoria</string>
+    <string name="Et_categoria_QS">Ingrese a un organismo auxiliar</string>
+    <string name="Et_categoria_QSLL">Ingrese a un organismo auxiliar</string>
+    <string name="Et_Numero_QSLL">Ingrese el numero telefonico</string>
+
+    <string name="Et_categoria_OANT">Ingrese a un organismo auxiliar</string>
+
+    <string name="Agregar_categoria_BD">Agregar</string>
+    <string name="Agregar_categoria_BD_QS">Agregar Organismo</string>
+
+
+    <string name="Item_nombre_cat_a">Nombre categoria</string>
+    <string name="Item_nombre_catQS_a"> Organismo</string>
+
+
+    <string name="Item_nombre_catQS_C"> Organismo</string>
+
+
+    <string name="Buscar_categoria">Buscar categoria</string>
+    <string name="Buscar_Usuarios">Buscar Usuarios</string>
+
+    <string name="Buscar_categoria_QS">Buscar Organismo</string>
+    <string name="Buscar_categoria_QSCL">Buscar Organismo</string>
+
+    <string name="Txt_agregar_libro">Agregar Archivo</string>
+    <string name="Txt_agregar_libro_QS">Agregar Notificacion</string>
+
+
+    <string name="Et_titulo_libro">Titulo Informativo</string>
+    <string name="Et_descripcion_libro">Descripcion informativa</string>
+    <!--Intitucion-->
+    <!--NombreOrgnismo-->
+    <string name="Et_titulo_Or_QS">Nombre de la organizacion</string>
+    <!--Objetivo-->
+    <string name="Et_objetivo_Or_libro_QS">Objetivo</string>
+    <!--Acciones-->
+    <string name="Et_Acciones_Or_libro_QS">Que hacemos</string>
+    <!--Telefono-->
+    <string name="Et_Telefono_Or_libro_QS">Telefóno</string>
+    <string name="Et_Telefono_Or_libro_AdminLL">Telefóno</string>
+
+
+    <string name="Tv_categoria_libro">Categoria</string>
+    <string name="Tv_categoria_Or_QS">Organismo</string>
+
+
+    <string name="Btn_subir_archivo">Subir archivo</string>
+    <string name="Btn_subir_archivo_qs">Subir archivo</string>
+    <string name="Btn_Actualizar_archivo_qs">Actualizar Informacion</string>
+
+
+    <string name="Txt_titulo_libro">Contenido</string>
+    <string name="Txt_titulo_llamadas">Historial</string>
+
+    <string name="Txt_titulo_libroQSCLPdf">Organismos auxiliares</string>
+
+    <string name="Txt_titulo_libroQS">Organismo Auxiliar </string>
+
+    <string name="Txt_categria_libro">Categoria</string>
+    <string name="Txt_llamadas_historiales">Acotninuacion se enlistan las llamadas de emergencia</string>
+
+    <string name="Txt_categria_libroQSCLPdf">quienes te pueden ayudar</string>
+
+    <string name="Et_buscar_libro_admin">Buscar Archivo</string>
+    <string name="Et_buscar_libro_adminQS">Buscar Organismo</string>
+
+    <string name="Txt_titulo_libro_item">Titulo Archivo </string>
+    <string name="Txt_titulo_libro_itemQS">Titulo Organismo </string>
+
+    <string name="Txt_descripcion_libro_item">Descripcion libro</string>
+    <string name="Txt_acciones_libro_itemQS">Acciones</string>
+    <string name="Txt_telefono_libro_itemQS">Numero Telefonico</string>
+
+
+    <string name="Txt_Objetivo_libro_itemQS">Objetivo</string>
+    <string name="Txt_categoria_libro_adminQS">Categoria</string>
+
+    <string name="Txt_categoria_libro_admin">Categoria</string>
+
+    <string name="Txt_tamanio_libro_admin">5MB </string>
+    <string name="Txt_fecha_libro_admin">dd/MM/yyyy </string>
+    <string name="Txt_tamanio_libro_adminQS">5MB </string>
+    <string name="Txt_fecha_libro_adminQS">dd/MM/yyyy </string>
+
+    <string name="Txt_actualizar_libro">Actualizar Archivo</string>
+    <string name="Txt_actualizar_libroQS">Actualizar Informacion</string>
+    <string name="Btn_actualizar_libro">Actualizar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="Txt_detalle_libro">Detalle del Archivo </string>
+    <string name="Txt_detalle_libroQS">Detalle del Archivo </string>
+
+
+    <string name="titulo_libro_D">Titulo Archivo</string>
+    <string name="Txt_categoria_D">Categoria</string>
+    <string name="categoria_D"> -- </string>
+    <string name="Txt_fecha_D">Fecha: </string>
+    <string name="fecha_D"> -- </string>
+    <string name="Txt_tamanio_D">Tamaño: </string>
+    <string name="tamanio_D"> -- </string>
+    <string name="Txt_vistas_D">Vistas: </string>
+    <string name="vistas_D"> -- </string>
+    <string name="Txt_descargas_D">Descargas: </string>
+    <string name="descargas_D"> -- </string>
+    <string name="Txt_paginas_D">Páginas: </string>
+    <string name="paginas_D"> -- </string>
+    <string name="Txt_descripcion_D">Descripción</string>
+    <string name="Txt_descripcion_DQS">Acciones</string>
+
+    <string name="descripcion_D"> -- </string>
+
+    <string name="Btn_leer_libro">Leer</string>
+
+
+    <!--Datos de detalle para archivo infografia-->
+
+    <string name="titulo_libro_DQS">Titulo Archivo</string>
+    <string name="Txt_Telefono_DQS">Telefono:</string>
+    <string name="Telefono_DQS"> -- </string>
+    <string name="Txt_categoria_DQS">Categoria</string>
+    <string name="categoria_DQS"> -- </string>
+    <string name="Txt_fecha_DQS">Fecha: </string>
+    <string name="fecha_DQS"> -- </string>
+    <string name="Txt_tamanio_DQS">Tamaño: </string>
+    <string name="tamanio_DQS"> -- </string>
+    <string name="Txt_vistas_DQS">Vistas: </string>
+    <string name="vistas_DQS"> -- </string>
+    <string name="Txt_descargas_DQS">Descargas: </string>
+    <string name="descargas_DQS"> -- </string>
+    <string name="Txt_paginas_DQS">Páginas: </string>
+    <string name="paginas_DQS"> -- </string>
+    <string name="Txt_Objetivos_DQS">Objetivos</string>
+    <string name="Objetivos_DQS"> -- </string>
+    <string name="Txt_acciones_DQS">Acciones</string>
+    <string name="Acciones_DQS"> -- </string>
+
+
+    <string name="Txt_leer_libro">Lectura de libro</string>
+    <string name="Txt_leer_libroQS">Abrir archivo</string>
+
+
+    <!--perfil del administrador-->
+    <string name="nombres_admin">Nombres: </string>
+    <string name="Txt_nombres_admin"> -- </string>
+    <string name="email_admin">Email: </string>
+    <string name="Txt_email_admin"> -- </string>
+    <string name="tiempo_registro_admin">Miembro desde: </string>
+    <string name="Txt_tiempo_registro_admin"> -- </string>
+    <string name="rol_admin">Rol: </string>
+    <string name="Txt_rol_admin"> -- </string>
+    <string name="Txt_mas_opciones">Mas opciones: </string>
+
+    <string name="EditarPrefilAdmin">Editar perfil</string>
+    <string name="Txt_editar_perfil_admin">Editar Perfil</string>
+
+    <string name="Txt_llamadas_Us">Llamadas</string>
+    <string name="Et_a_nombres">Nombres</string>
+    <string name="Btn_actualizar_info">Actualizar</string>
+
+    <!--Strings para user estandar-->
+    <string name="TxtRegistrarCliente">Registro de usuario estánndar</string>
+    <string name="Et_nombre_cl"> Nombres </string>
+    <string name="Et_sexo_cl"> Sexo</string>
+    <string name="Et_localidad_cl">Localidad</string>
+    <string name="Et_telefono_cl_R">Telefono</string>
+
+
+    <string name="Et_edad_cl">Edad </string>
+    <!--
+    <string name="Et_numeroT_cl">Telefono </string>
+    <string name="Et_CURP_cl">CURP </string>
+    <string name="Et_NSS_cl"> NSS(numero de seguro social) </string>
+    -->
+    <string name="Et_NSS_cl"> NSS(numero de seguro social) </string>
+    <string name="Et_email_cl">Email</string>
+    <string name="Et_password_cl">Password </string>
+    <string name="Et_r_password_cl">Repetir password </string>
+    <string name="Btn_registrar_cl">Registrarme </string>
+
+
+    <!--<string name="Txt_consulta_Curp">Consulta tu curp aqui: https://www.gob.mx/curp/</string>
+    <string name="Txt_consulta_NSS">Consulta tu NSS aqui: https://serviciosdigitales.imss.gob.mx/gestionAsegurados-web-externo/asignacionNSS</string>-->
+
+    <!--Menu boton cliente-->
+    <string name="Menu_dashboard_cl">Inicio</string>
+    <string name="Menu_fsvoritos_cl">Favoritos</string>
+    <string name="Menu_somos_cl">Prealba</string>
+    <!--aun pendiente-->
+    <string name="Menu_Emergencias_cl">Urgencias</string>
+    <string name="Menu_cuenta_cl">Cuenta</string>
+
+    <string name="Titulo_RL_Cliente"> titulo </string>
+    <string name="CerrarSesionCliente">Cerrar sesion</string>
+
+    <!--login c-->
+    <string name="TxtLoginCliente">Login Estandar </string>
+    <string name="Btn_login_cliente">Ingresar</string>
+
+    <!--login Alternativa-->
+    <string name="Txt_alternativa">Alternativa</string>
+    <string name="Btn_login_google">Ingresar con Google</string>
+
+    <string name="Item_nombre_cat_c">Nombre categoria</string>
+
+    <string name="Et_buscar_libro_cliente">Buscar</string>
+
+    <string name="Btn_leer_libro_c">Leer</string>
+    <string name="Btn_descargar_libro_c">Descargar </string>
+    <string name="Btn_descargar_libro_cQS">Descargar </string>
+
+    <string name="Btn_favoritos_libro_c">Favoritos</string>
+
+    <string name="Btn_mas_vistos">+ vistas</string>
+    <string name="Btn_mas_descargados">+ Descargas </string>
+    <string name="Txt_comentarios">Escriba un Comentario</string>
+    <string name="Txt_Llamadas1">Ejecute su llamada</string>
+
+    <string name="Txt_llamadas_Or">Nombre</string>
+    <string name="Txt_llamadas_Or_N">Numero</string>
+    <string name="Btn_rechazar">cancelar</string>
+
+
+    <string name="Et_agregar_comentario">Escriba un comentario</string>
+    <string name="Et_agregar_Nombre">Organismo</string>
+    <string name="Et_agregar_NombreU">Nombre</string>
+
+    <string name="Et_agregar_Numero">Numero</string>
+
+    <string name="Et_realizar_llamada">Llamar</string>
+    <string name="Btn_comentar">Comentar</string>
+    <string name="Btn_Llamar">Llamar</string>
+    <string name="Btn_Cancelar">Cancelar</string>
+
+    <string name="Btn_llamar">Llamar</string>
+    <!--<string name="Btn_cancelar">Cancelar</string>-->
+
+
+    <string name="Tv_nombres_c">Nombre de usuario</string>
+    <string name="Tv_fecha_c">dd/MM/yyyy</string>
+    <string name="Tv_comentarios_c">Comentario de usuario</string>
+
+    <string name="nombres_cliente">Nombre: </string>
+    <string name="Txt_nombres_clientes"> -- </string>
+    <string name="email_cliente">email</string>
+    <string name="Txt_email_cliente">--</string>
+    <string name="Tiempo_registro_cliente"> Miembro desde: </string>
+    <string name="Txt_tiempo_registro_cliente"> -- </string>
+    <string name="edad_cliente">Edad: </string>
+    <string name="sexo_cliente">Sexo: </string>
+    <string name="telefono_cliente">Telefono: </string>
+
+
+    <string name="Txt_edad_cliente"> -- </string>
+    <string name="Txt_sexo_cliente"> -- </string>
+    <string name="Txt_telefono_cliente"> -- </string>
+
+
+    <!--esto es serio, es para la curp y demas datos personales-->
+
+    <string name="numeroT_cl">Telefono </string>
+    <string name="Txt_numeroT_cl"> __ </string>
+    <string name="CURP_cl">CURP </string>
+    <string name="Txt_CURP_cl">__ </string>
+    <string name="NSS_cl"> NSS(numero de seguro social) </string>
+    <string name="Txt_NSS_cl">__</string>
+    <string name="localidad_cl"> Localidad </string>
+    <string name="Txt_localidad_cl">__</string>
+
+    <string name="EditarPerfilCliente">Editar perfil</string>
+
+    <string name="rol_cliente"> Rol: </string>
+    <string name="Txt_rol_cliente"> -- </string>
+
+    <string name="Txt_editar_perfil_cliente">Editar perfil</string>
+
+    <string name="Et_c_nombres">Nombre</string>
+    <string name="Et_c_edad">Edad</string>
+    <string name="Et_c_correo">Correo</string>
+    <string name="Et_c_tel">Telefono</string>
+    <string name="Et_c_Sexo">Sexo</string>
+    <string name="Et_c_Localidad">Localidad</string>
+
+    <string name="Et_c_NSS">NSS</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="textNombreLL">Nombre</string>
+    <string name="textSexoLL">Sexo</string>
+    <string name="textEdadLL">Edad</string>
+    <string name="textDuracion">Duracion</string>
+    <string name="textTipoLL">Tipo de llamada</string>
+    <string name="textFechaLL">Fecha</string>
+    <string name="textDuracionLL">Fecha</string>
+
+    <string name="textNumeroCLL">Numero</string>
+    <string name="textLatitudeLL">Latitud</string>
+    <string name="textLongitudeLL">Longitud</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="btnCompartir">compartir</string>
+    <string name="app_name1">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/m_hll"
+            android:title="Historial de llamadas"
+            android:icon="@drawable/ic_location" />
+
+        <item
+            android:id="@+id/m_us"
+            android:title="Usuarios"
+            android:icon="@drawable/ic_inicio"/>
+        <item
+            android:id="@+id/m_ad"
+            android:title="Administradores"
+            android:icon="@drawable/ic_location" />
+
+        <item
+            android:id="@+id/m_oa"
+            android:title="Organismos auxiliares"
+            android:icon="@drawable/ic_inicio"/>
+        <item
+            android:id="@+id/m_ull"
+            android:title="Usuarios que llamaron"
+            android:icon="@drawable/ic_location" />
+
+        <item
+            android:id="@+id/m_arc"
+            android:title="Archivos"
+            android:icon="@drawable/ic_inicio"/>
+    </group>
+</menu>

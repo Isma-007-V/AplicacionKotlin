@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141928222797",
+    "firebase_url": "https://appprealba-default-rtdb.firebaseio.com",
+    "project_id": "appprealba",
+    "storage_bucket": "appprealba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141928222797:android:d84b484f95c162a3638c04",
+        "android_client_info": {
+          "package_name": "com.example.prealba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141928222797-nlqva9sppc7g7nfqa9fuc73bv1pp7u0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prealba",
+            "certificate_hash": "104d96cbcc75ae0298117049ddc75f7937745f22"
+          }
+        },
+        {
+          "client_id": "141928222797-visc8onc2pvm14bm0vqlli4t2nu22fs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATHu2KbUmbo_x6y7XLhYjwGN3dtydLQms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141928222797-visc8onc2pvm14bm0vqlli4t2nu22fs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+     android:id="@+id/Menu_panel"
+     android:title="@string/Menu_panel"
+         android:icon="@drawable/ic_dashboard"
+     />
+
+    <item
+        android:id="@+id/Menu_somos"
+        android:title="@string/Menu_somos"
+        android:icon="@drawable/ic_quienes_somos"
+        />
+    <item
+        android:id="@+id/Menu_emergencias_A"
+        android:title="@string/Menu_emergencias_A"
+        android:icon="@drawable/ic_emergencia"/>
+    <item
+        android:id="@+id/Menu_Panel_Menu_A"
+        android:title="@string/Menu_Panel_informes"
+        android:icon="@drawable/ic_informe"
+        />
+    <item
+        android:id="@+id/Menu_cuenta"
+        android:title="@string/Menu_cuenta"
+        android:icon="@drawable/ic_cuenta"
+        />
+
+</menu>

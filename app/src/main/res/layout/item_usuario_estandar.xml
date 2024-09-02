@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--Imagen cliente-->
+            <!--<androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_perfil_cliente"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_img_perfil"/>-->
+
+            <!--nombres C-->
+
+            <ImageButton
+                android:id="@+id/btnRealizarLLamadas"
+                android:src="@drawable/ic_llamada"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/nombres_cliente2"
+                android:text="@string/nombres_cliente"
+                android:layout_below="@+id/btnRealizarLLamadas"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_nombres_clientes2"
+                android:text="@string/Txt_nombres_clientes"
+                android:layout_below="@+id/btnRealizarLLamadas"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--email-->
+            <TextView
+                android:id="@+id/email_cliente2"
+                android:text="@string/email_cliente"
+                android:layout_below="@+id/nombres_cliente2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_email_cliente2"
+                android:text="@string/Txt_email_cliente"
+                android:layout_below="@+id/nombres_cliente2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--telefono-->
+            <TextView
+                android:id="@+id/telefonoC_cliente2"
+                android:text="@string/telefono_cliente"
+                android:layout_below="@+id/email_cliente2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_telefono_cliente2"
+                android:text="@string/Txt_sexo_cliente"
+                android:layout_below="@+id/Txt_email_cliente2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--NSS-->
+            <TextView
+                android:id="@+id/NSS_cl2"
+                android:text="@string/NSS_cl"
+                android:layout_below="@+id/telefonoC_cliente2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_NSS_cl2"
+                android:text="@string/Txt_NSS_cl"
+                android:layout_below="@+id/telefonoC_cliente2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--localidad-->
+            <TextView
+                android:id="@+id/localidad_cl2"
+                android:text="@string/localidad_cl"
+                android:layout_below="@+id/NSS_cl2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_localidad_cl2"
+                android:text="@string/Txt_localidad_cl"
+                android:layout_below="@+id/NSS_cl2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!--Rol-->
+            <TextView
+                android:id="@+id/rol_cliente2"
+                android:text="@string/rol_cliente"
+                android:layout_below="@+id/localidad_cl2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_rol_cliente2"
+                android:text="@string/Txt_rol_cliente"
+                android:layout_below="@+id/localidad_cl2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

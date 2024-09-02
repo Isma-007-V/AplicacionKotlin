@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aandroid="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
+    <application
+        android:name=".Administrador.MisFunciones"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_prealba_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_prealba_foreground"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.PreAlba"
+        tools:targetApi="31">
+        <activity
+            android:name=".Administrador.LlamadaUserAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.HistorialLLA"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api" />
+
+        <activity
+            android:name=".Cliente.locationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.ActualizarCatLL"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.LLamada"
+            aandroid:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Administrador.HisotrialLLamada"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.AgregarCategoriaLlamadaAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.DetalleLibro_ClienteQS"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.ListaPdfClienteQs"
+            android:exported="false" />
+        <activity
+            android:name=".LeerLibroQS"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Detalle_Libro_QS"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.ActualizarLibroQS"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.ListaPdfAdminQS"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Agregar_Pdf_QS"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Agregar_categoria_qs"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.Editar_Perfil_Cliente"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.TopDescargados"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.TopVistas"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.DetalleLibro_Cliente"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.ListaPdfCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.Login_Cliente"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.Registrar_Cliente"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.EditarPerfilAdmin"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".LeerLibro"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.DetalleLibro"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.ActualizarLibro"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.ListaPdfAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Agregar_Pdf"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Agregar_Categoria"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Login_admin"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador.Registrar_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Elegir_rol"
+            android:exported="false" />
+        <activity
+            android:name=".Bienvenida"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

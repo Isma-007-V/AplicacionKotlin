@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_option1"
+            android:title="Consultar Ubicación"
+            android:icon="@drawable/ic_location" />
+        <!-- Más ítems relacionados
+        <item
+            android:id="@+id/menu_dash"
+            android:title="inicio"
+            android:icon="@drawable/ic_inicio"/>-->
+    </group>
+</menu>
